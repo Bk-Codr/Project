@@ -1,0 +1,56 @@
+@import url('https://fonts.googleapis.com/css2?family=Averia+Libre:wght@300&family=Rubik+Mono+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Abel&display=swap');
+
+*{
+ margin: 0;
+ padding: 0;
+}
+
+body{
+    background-color: #1b1b1b ;
+    color: white;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top: 1%;
+    font-family:'Rubik Mono One', sans-serif;
+}
+
+.container{
+    background-color: rgb(189, 179, 93);
+} 
+.parent-container{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 1em;
+  
+}
+
+img{
+    object-fit: cover;
+    width: 100%;
+    height:100%;
+    border-radius: 3%;
+}
+
+h1 {
+ 
+    text-align: center;
+    font-size: 100px;
+    text-shadow: 4px 4px rgb(107, 105, 105); 
+    font-style: italic;   
+   
+    
+}
+.lead{
+    text-align: center;
+    text-shadow: 4px 4px rgb(107, 105, 105); 
+    font-style: italic;   
+}
+.underline{
+    border-bottom: lightgrey solid 2px;
+}
+.content{
+    font-family: 'Abel', sans-serif;
+    font-size: 20px;
+
+}
